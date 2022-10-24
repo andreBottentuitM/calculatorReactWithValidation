@@ -123,7 +123,7 @@ const App = () => {
       setState(result.join("").replace(`${result}`, "0"));
     } else {
       setState(result.join(""));
-      setComma(true);
+      
     }
   };
 
